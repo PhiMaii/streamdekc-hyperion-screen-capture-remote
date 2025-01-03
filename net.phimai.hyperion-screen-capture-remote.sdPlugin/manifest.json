@@ -49,11 +49,6 @@
           "Image": "imgs/actions/restartCapture/key-on",
           "TitleAlignment": "middle",
           "Name": "On"
-        },
-        {
-          "Image": "imgs/actions/restartCapture/key-off",
-          "TitleAlignment": "middle",
-          "Name": "Off"
         }
       ]
     }
