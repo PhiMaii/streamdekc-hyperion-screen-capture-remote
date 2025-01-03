@@ -1,0 +1,46 @@
+{
+	"Name": "Hpyerion Screen Caputre Remote",
+	"Version": "0.1.0",
+	"Author": "PhiMai",
+	"Actions": [
+		{
+			"Name": "Counter",
+			"UUID": "net.phimai.hyperion-screen-capture-remote.increment",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Displays a count, which increments by one on press.",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "Hpyerion Screen Caputre Remote",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "A Stream Deck plugin to controll the Hyerion Screen Capture app on Windows",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.15"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "net.phimai.hyperion-screen-capture-remote"
+}
