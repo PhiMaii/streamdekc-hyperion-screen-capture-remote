@@ -46,8 +46,14 @@
       "Tooltip": "Restarts the Hyperion Screen Capture",
       "States": [
         {
-          "Image": "imgs/actions/counter/key",
-          "TitleAlignment": "middle"
+          "Image": "imgs/actions/restartCapture/key-on",
+          "TitleAlignment": "middle",
+          "Name": "On"
+        },
+        {
+          "Image": "imgs/actions/restartCapture/key-off",
+          "TitleAlignment": "middle",
+          "Name": "Off"
         }
       ]
     }
